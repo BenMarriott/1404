@@ -7,3 +7,5 @@ elif score >= 50:
         print("Passable")
 else:
     print("Bad")
+#hshjshjsjsjs
+# edit x2
