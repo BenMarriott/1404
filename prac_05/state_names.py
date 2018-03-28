@@ -16,6 +16,5 @@ while state != "":
     else:
         print("Invalid short state")
     state = input("Enter short state: ").upper()
-
 for k, v in STATE_NAMES.items():
     print("{} if for {}!".format(k, v))

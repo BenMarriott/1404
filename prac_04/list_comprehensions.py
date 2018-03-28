@@ -38,6 +38,9 @@ almost_numbers = ['0', '10', '21', '3', '-7', '88', '9']
 numbers = list(map(int, almost_numbers))
 print(numbers)
 
+print([int(num_string) for num_string in almost_numbers])
+
 # # TODO: use a list comprehension to create a list of only the numbers that are
 # # greater than 9 from the numbers (not strings) you just created
 # high_numbers = [number[0] for number in max(9,numbers)]
+print([number for number in numbers if number > 9])
