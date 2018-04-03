@@ -9,6 +9,6 @@ for word in words:
 
 words = list(exclusive_words.keys())
 words.sort()
-max_length = ((len(word)for word in words))
+max_length = max((len(word)for word in words))
 for word in words:
     print("{:{}} : {}".format(word, max_length, exclusive_words[word]))
