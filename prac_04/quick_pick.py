@@ -12,7 +12,7 @@ def main():
 
     for i in range(number_of_quick_picks):
         quick_pick = []
-        for t in range(NUMBERS_PER_LINES):
+        for number in range(NUMBERS_PER_LINES):
             number = randint(MINIMUM, MAXIMUM)
             while number in quick_pick:
                 number = randint(MINIMUM, MAXIMUM)
