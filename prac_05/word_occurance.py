@@ -1,8 +1,8 @@
 
 
 exclusive_words = {}
-sentance = input("Text here:")
-words = sentance.split()
+sentence = input("Text here:")
+words = sentence.split()
 for word in words:
     frequency = exclusive_words.get(word, 0)
     exclusive_words[word] = frequency + 1
